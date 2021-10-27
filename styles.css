@@ -91,3 +91,9 @@ td {
   padding-left: 2.5px;
   padding-right: 2.5px;
 }
+
+@media (max-width: 900px) {
+  .profile-pic {
+    width: 40%;
+  }
+}
