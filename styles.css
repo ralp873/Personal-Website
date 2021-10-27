@@ -65,7 +65,7 @@ td {
 }
 
 .profile-pic {
-  width: 20%;
+  width: 25%;
 }
 
 .short-intro {
@@ -92,8 +92,8 @@ td {
   padding-right: 2.5px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   .profile-pic {
-    width: 40%;
+    width: 35%;
   }
 }
