@@ -92,6 +92,13 @@ td {
   padding-right: 2.5px;
 }
 
+.tech-skill {
+  width: 10rem;
+}
+
+
+/* Media Tags */
+
 @media (max-width: 1080px) {
   .profile-pic {
     width: 35%;
