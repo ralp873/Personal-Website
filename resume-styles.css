@@ -1,0 +1,47 @@
+/* General Changes */
+
+body {
+    background-color: #202020;
+    color: #F9F9F9;
+    font-family: "Open Sans", sans-serif;
+    margin: 40px 20px 40px 20px;
+  }
+
+
+p {
+    font-size: 1.2rem;
+}
+
+li {
+    font-size: 1.2rem;
+}
+  
+hr {
+    margin-left: 25%;
+    width: 50%;
+    border-style: none;
+    border-width: 10px;
+    border-top-style: dotted;
+    border-color: #F9F9F9;
+  }
+
+
+  /* Work Experience Section */
+
+.job-title {
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
+
+  .vl {
+    border-left: 6px solid white;
+    padding-left: 10px;
+  }
+
+  /* Media Tags */
+
+@media (max-width: 1080px) {
+    .profile-pic {
+      width: 35%;
+    }
+  }
