@@ -1,0 +1,272 @@
+/* General Changes */
+
+body {
+  background-color: #F7F9FB;
+  color: #27374D;
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding: 1.25rem;
+}
+
+hr.divider {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(236, 236, 210, 1), rgb(91, 102, 113), rgba(236, 236, 210, 1));
+}
+
+table {
+  margin-left: 30%;
+}
+
+td {
+  padding-right: 1.5rem;
+}
+
+/* Navbar Changes */
+
+.navbar-brand:hover {
+  color: #9DB2BF;
+}
+
+.navbar {
+  background-color: #27374D;
+}
+
+.nav-item {
+  padding: 0 1.125rem;
+}
+
+.navbar-nav .nav-link {
+  text-align: right;
+  color: #DDE6ED;
+}
+
+.navbar-brand {
+  color: #DDE6ED;
+}
+
+.nav-link:hover {
+  color: #9DB2BF;
+}
+
+
+/* Personal Header Changes */
+
+.personal-bio {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 1.25rem;
+}
+
+
+.profile-pic {
+  width: auto;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-bottom: 1.25rem;
+}
+
+.welcome-msg {
+  padding: 1.25rem 0 1.25rem;
+}
+
+
+/* Project Changes */
+
+.card {
+  margin: 1.25rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #F7F9FB;
+  box-shadow: 5px -5px 10px 1px rgba(0, 0, 0, 0.5)
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.c-details span {
+  font-weight: 300;
+  font-size: 13px
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 39px;
+  background-image: url(./Pictures/tableau-icon-span.png);
+}
+
+.badge span {
+  background-color: #F7F9FB;
+  width: 60px;
+  height: 25px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  display: flex;
+  color: #ba2727;
+  justify-content: center;
+  align-items: center
+}
+
+.text1 {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.text2 {
+  color: #a5aec0
+}
+
+
+.card-btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-color: none;
+}
+
+.arrow-pointers {
+  padding-right: 2.188rem;
+}
+
+.arrow-button {
+background-color: #343a40;
+border-color: #343a40;
+}
+
+.arrow-icon {
+color: #ffffff;
+}
+
+/* Skills Section  */
+
+.skill-category {
+  text-align: center;
+  margin-bottom: 1.625rem;
+}
+
+.skill-name {
+  margin-top: 0.625rem;
+  margin-bottom: 0.313rem;
+  text-align: left;
+}
+
+.skill-div {
+  padding-bottom: 3.125rem;
+}
+
+.progress {
+  background-color: #DBDADAAE;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  background-color: #526D82;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #27374D;
+  overflow: hidden;
+}
+
+.footer-div {
+  margin-top: 0.625rem;
+  margin-bottom: 0.563rem;
+  background-color: #27374D;
+  color: #DDE6ED;
+}
+
+.footer-pg {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-img {
+  height: 2.125rem;
+  width: auto;
+  float: left;
+}
+
+.img-item {
+  display: inline-flex;
+  margin: 1.125rem 0.525rem 0rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-div {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 0.625rem;
+}
+
+.icons-text {
+  font-size: 0.825rem;
+}
+
+/* Media Tags & animations */
+
+@media (max-width: 960px) {
+  .profile-pic {
+    margin-top: 3.125rem;
+    width: 35%;
+  }
+
+  .short-desc {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 1.25rem;
+  }
+
+  .personal-bio {
+    text-align: center;
+    margin-top: 2.125rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .skill-header-2 {
+    margin-top: 2.125rem;
+  }
+
+  .progress {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skill-name {
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .arrow-pointers {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 820px) {
+  .card {
+    margin: 0.625rem;
+  }
+}
