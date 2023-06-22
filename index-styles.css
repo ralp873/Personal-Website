@@ -18,7 +18,7 @@ h2 {
 
 hr.divider {
   border: 0;
-  height: 3px;
+  height: 0.188rem;
   background-image: linear-gradient(to right, rgba(236, 236, 210, 1), rgb(91, 102, 113), rgba(236, 236, 210, 1));
 }
 
@@ -62,15 +62,15 @@ td {
 
 .personal-bio {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 4.375rem;
   margin-bottom: 1.25rem;
 }
 
 
 .profile-pic {
   width: auto;
-  border-radius: 25px;
-  margin-top: 30px;
+  border-radius: 1.563rem;
+  margin-top: 1.875rem;
   margin-bottom: 1.25rem;
 }
 
@@ -84,57 +84,57 @@ td {
 .card {
   margin: 1.25rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: #F7F9FB;
-  box-shadow: 5px -5px 10px 1px rgba(0, 0, 0, 0.5)
+  box-shadow: 0.313rem -0.313rem 0.625rem 0.063rem rgba(0, 0, 0, 0.5)
 }
 
 .card-text {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .c-details span {
   font-weight: 300;
-  font-size: 13px
+  font-size: 0.813rem;
 }
 
 .icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 15px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.938rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 39px;
+  font-size: 2.438rem;
   background-image: url(./Pictures/tableau-icon-span.png);
 }
 
 .badge span {
   background-color: #F7F9FB;
-  width: 60px;
-  height: 25px;
-  padding-bottom: 3px;
-  border-radius: 5px;
+  width: 3.75rem;
+  height: 1.563rem;
+  padding-bottom: 0.188rem;
+  border-radius: 0.313rem;
   display: flex;
-  color: #ba2727;
+  color: #343a40;
   justify-content: center;
   align-items: center
 }
 
 .text1 {
-  font-size: 14px;
-  font-weight: 600
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
 .text2 {
-  color: #a5aec0
+  color: #a5aec0;
 }
 
 
 .card-btn {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
+  margin-top: 0.313rem;
+  margin-bottom: 0.313rem;
+  margin-right: 0.313rem;
   border-color: none;
 }
 
@@ -149,6 +149,14 @@ border-color: #343a40;
 
 .arrow-icon {
 color: #ffffff;
+}
+
+span.tb-story {
+  color: green;
+}
+
+span.tb-dash {
+  color: #ba2727;
 }
 
 /* Skills Section  */
@@ -171,7 +179,7 @@ color: #ffffff;
 .progress {
   background-color: #DBDADAAE;
   width: 80%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .progress-bar {
@@ -260,8 +268,8 @@ color: #ffffff;
   }
 
   .arrow-pointers {
-    margin-bottom: 5px;
-    margin-left: 10px;
+    margin-bottom: 0.313rem;
+    margin-left: 0.625rem;
   }
 }
 
